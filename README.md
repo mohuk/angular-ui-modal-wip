@@ -4,6 +4,28 @@ Work in progress module for Angular UI Bootstrap Modal
 
 The Idea is to save the context/data in the modal forms if the user decides to dismiss the modal by clicking the backdrop. If the use explicitly cancels or closes the modal, the context/data should be refreshed.
 
-Approach:
+## Approach:
 
-Decorating the *$modal* and *$modalStack* services from Angular UI Bootstrap
+Decorating the **$modal** and **$modalStack** services from Angular UI Bootstrap.
+
+## Development:
+
+Install NodeJS dependencies 
+
+```bash
+$ npm install
+```
+
+Install Bower dependencies
+
+```bash
+$ bower install
+```
+
+Start development environment
+
+```bash
+$ grunt serve
+```
+
+
